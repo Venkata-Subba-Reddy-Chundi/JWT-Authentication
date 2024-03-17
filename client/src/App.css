@@ -1,0 +1,70 @@
+body{
+  font-size: 1.4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: linear-gradient(to top left, rgb(255, 127, 149), yellow, green);
+  height: 100vh;
+}
+
+input{
+  padding: 10px 0px 10px 5px;
+  font-size: 1.2rem;
+  margin: 10px 4px;
+  border-radius: 10px;
+  width: 100%;
+}
+input[type="submit"]{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color:forestgreen;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  color: black;
+  background-color: rgb(12, 247, 255);
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-content{
+  text-align: left;
+  background-color: white;
+  padding: 1px 50px;
+  border-radius: 10px;
+}
+p{
+  font-size: 1.2rem;
+}
+.redirect{
+  text-decoration: none;
+  color: rgb(33, 139, 226);
+  font-size: 1.3rem;
+}
+.logout-btn{
+  padding: 15px 30px;
+  color: white;
+  font-size: 1.1rem;
+  background-color: black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.logout-btn:hover{
+  background-color: red;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-data{
+  color: white;
+}
+.profile-data img{
+  width: 140px;
+  height: 140px;
+}
+
